@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ver Grafo</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <h1>Grafo Actual</h1>
+    <pre>{{ graph }}</pre>
+    <a href="{{ url_for('main_routes.index') }}">Volver</a>
+</body>
+</html>
